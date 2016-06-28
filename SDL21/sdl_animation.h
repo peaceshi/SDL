@@ -1,0 +1,3 @@
+#ifndef SDL_ANIMATION_H
+#define SDL_ANIMATION_H
+#endif // !SDL_ANIMATION_H
