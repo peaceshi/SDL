@@ -166,12 +166,12 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="clean_up.h" />
+    <ClInclude Include="event_log.h" />
     <ClInclude Include="general.h" />
     <ClInclude Include="render_draw.h" />
     <ClInclude Include="res_path.h" />
     <ClInclude Include="sdl_animation.h" />
     <ClInclude Include="sys.h" />
-    <ClInclude Include="event_log.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -56,22 +56,22 @@
     <ClInclude Include="clean_up.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="event_log.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
     <ClInclude Include="general.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="res_path.h">
-      <Filter>头文件</Filter>
-    </ClInclude>
-    <ClInclude Include="sys.h">
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="render_draw.h">
       <Filter>头文件</Filter>
     </ClInclude>
-    <ClInclude Include="event_log.h">
+    <ClInclude Include="res_path.h">
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="sdl_animation.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="sys.h">
       <Filter>头文件</Filter>
     </ClInclude>
   </ItemGroup>
