@@ -1,15 +1,19 @@
 #include <SDL.h>
 
-void WindowEvent(const SDL_Event * event);
+void WindowEventLog(const SDL_Event * event);
+void KeyboardEventLog(const SDL_Event * event);
 
-void PrintEvent(const SDL_Event * event)
+void PrintEventLog(const SDL_Event * event)
 {
 	if (event->type == SDL_WINDOWEVENT) {
-		WindowEvent(&event->type);
+		WindowEventLog(&(event->type));
+	}
+	if (event->type == SDL_KEYDOWN) {
+		KeyboardEventLog(&(event->type));
 	}
 }
 
-void WindowEvent(const SDL_Event * event)
+void WindowEventLog(const SDL_Event * event)
 {
 	switch (event->window.event) {
 		case SDL_WINDOWEVENT_SHOWN:
@@ -66,6 +70,28 @@ void WindowEvent(const SDL_Event * event)
 		default:
 			SDL_Log("Window %d got unknown event %d",
 					event->window.windowID, event->window.event);
+			break;
+	}
+}
+
+void KeyboardEventLog(const SDL_Event * event)
+{
+	switch (event->key.keysym.sym) {
+		case SDLK_UP:
+			SDL_Log("Physical UP key has been press down");
+			break;
+		case SDLK_DOWN:
+			SDL_Log("Physical DOWN key has been press down");
+
+			break;
+		case SDLK_LEFT:
+			SDL_Log("Physical LEFT key has been press down");
+			break;
+		case SDLK_RIGHT:
+			SDL_Log("Physical RIGHT key has been press down");
+			break;
+		default:
+			SDL_Log("Undefined key has been press down");
 			break;
 	}
 }

@@ -48,6 +48,9 @@
     <ClCompile Include="sdl_animation.c">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="sdl_drawlines.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="clean_up.h">
