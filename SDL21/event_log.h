@@ -3,6 +3,6 @@
 
 #include <SDL.h>
 
-extern void PrintEvent(const SDL_Event * event);
+extern void PrintEventLog(const SDL_Event * event);
 
 #endif
