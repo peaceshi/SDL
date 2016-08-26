@@ -6,10 +6,10 @@ void KeyboardEventLog(const SDL_Event * event);
 void PrintEventLog(const SDL_Event * event)
 {
 	if (event->type == SDL_WINDOWEVENT) {
-		WindowEventLog(&(event->type));
+		WindowEventLog(event);
 	}
 	if (event->type == SDL_KEYDOWN) {
-		KeyboardEventLog(&(event->type));
+		KeyboardEventLog(event);
 	}
 }
 

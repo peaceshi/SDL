@@ -18,22 +18,7 @@
     <ClCompile Include="sdl2test.c">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="cleanup.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="res_path.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="sys.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
     <ClCompile Include="sdl_window.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="test.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="render_draw.c">
       <Filter>源文件</Filter>
     </ClCompile>
     <ClCompile Include="sdl_texture_test.c">
@@ -42,13 +27,28 @@
     <ClCompile Include="sdl_render_with_texture.c">
       <Filter>源文件</Filter>
     </ClCompile>
-    <ClCompile Include="event_log.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
-    <ClCompile Include="sdl_animation.c">
-      <Filter>源文件</Filter>
-    </ClCompile>
     <ClCompile Include="sdl_drawlines.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\render_draw.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\event_log.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\sdl_animation.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\res_path.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\cleanup.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\sys.c">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\src\test.c">
       <Filter>源文件</Filter>
     </ClCompile>
   </ItemGroup>

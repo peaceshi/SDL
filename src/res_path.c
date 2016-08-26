@@ -47,9 +47,16 @@ char* getResourcePath(char* subDir) {
 		// 		size_t pos = baseRes.rfind("bin");
 #ifdef _DEBUG
 		char* pos_t = strstr(baseRes, "Debug");
+
 #else
 		char* pos_t = strstr(baseRes, "Release");
 #endif
+		if (pos_t == NULL) {
+			SDL_Log("ERROR Directory path!");
+			system("pause");
+			exit(-1);
+		}
+
 		int len_t = strlen(pos_t);
 		int len_b = strlen(baseRes);
 		strncpy(pos_t, baseRes, len_b - len_t);
